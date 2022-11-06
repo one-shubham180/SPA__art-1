@@ -1,0 +1,58 @@
+.js__interactivePage{
+    flex: 1;
+    padding: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.repl__title{
+    width: 100%;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: rgb(138, 28, 28);
+    padding: 5px 0;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    box-shadow: 1px 1px 5px grey;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.repl__inpWrapper {
+    display: flex;
+}
+
+.repl__inpWrapper::before {
+    content: '>';
+    margin-right: 10px;
+}
+.repl__inp{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    padding: 3px 0;
+    flex: 1;
+}
+
+.outputs__line{
+    font-size: .8rem;
+    margin: 2px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(216, 216, 209, 0.829);
+    position: relative;
+    padding-left: 20px;
+}
+
+.outline__lineError {
+    color: red;
+    border-bottom-color: red;
+}
+
+.output__lineNumber{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
