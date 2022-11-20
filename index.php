@@ -7,7 +7,7 @@
     <title> Single Page || Application </title>
     <script src="javascript/index.js" type="module" defer></script>
     <!-- link your css files here -->
-    <link rel="stylesheet" href="css/index.css />
+    <link rel="stylesheet" href="css/index.css" />
                                  
 </head>
 <body>
