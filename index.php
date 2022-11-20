@@ -7,8 +7,8 @@
     <title> Single Page || Application </title>
     <script src="javascript/index.js" type="module" defer></script>
     <!-- link your css files here -->
-    <link rel="stylesheet" href="css/index.css
-                                 <title> bckchodi </title>
+    <link rel="stylesheet" href="css/index.css />
+                                 
 </head>
 <body>
     <!-- This is a single page application => javascript magic -->
